@@ -1,0 +1,204 @@
+/*  
+Theme Name: pv
+Description: Pv theme
+Version: 0.0.1.
+Author: BB
+Text Domain: pv
+*/
+body {
+	background: url('images/bg.png') #001712;
+	color: #fff; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.site {
+	margin: -8px 10px auto 100px; 
+	position: absolute;
+}
+
+.site-header {
+	background: url('images/headerprosperitas.png') #001712;	
+	height: 160px;
+}
+
+.site-main {
+	position: relative;
+}
+
+.navbar {
+}
+
+.main-navigation {
+	background: url('images/menubg.png');
+}
+
+ul.nav-menu {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-menu li {
+	display: inline-block;
+	height: 62px;
+	width: 139px;
+	text-align: center;
+	margin-right: -4px;
+}
+
+.nav-menu li a {
+	color: #fff;
+	display: block;
+	height: 54px;
+    	width: 143px;
+	background: url('images/menuact.png')  center top no-repeat;
+	font-size: 15px;
+	height: 100%;
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover {
+	color: #fff;
+	background: url('images/menuactive.png')  center top no-repeat;
+}
+
+.main-navigation .search-form {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.main-navigation .search-field {
+	background-color: transparent;
+	background-image: url(images/search.png);
+	background-position: 0px center;
+	background-repeat: no-repeat;
+	background-size: 183px 63px;
+	border: none;
+//	cursor: pointer;
+	height: 63px;
+	margin: 3px 0;
+	padding: -10px 0 0 28px;
+	position: relative;
+//	-webkit-transition: width 400ms ease, background 400ms ease;
+//	transition:         width 400ms ease, background 400ms ease;
+	width: 183px;
+}
+
+.main-navigation .search-form .search-submit {
+	display: none;
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+
+.navbar2 {
+	max-width: 161px;
+	position: absolute;
+}
+
+.side-navigation {
+	width: 161px;
+}
+
+ul.nav-menu2 {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-menu2 li {
+	max-height: 63px;
+	margin-left: 10px;
+	margin-bottom: 8px;
+	display: block;
+	width: 149px;
+	height: 24px;
+}
+
+.nav-menu2 li a {
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #fff;
+	display: block;
+	font-size: 12px;
+	height: 24px;
+}
+
+.nav-menu2 li:hover > a,
+.nav-menu2 li a:hover {
+	background-color: #034053;
+	color: #fff;
+}
+
+.site-content {
+	background: url('images/contentbg.png') #001712;
+	position: absolute;
+	margin:0 0 0 170px;
+	padding-left:10px;
+	padding-right:10px;
+	max-width: 500px;
+	width: 100%;
+}
+
+.site-content .comments-link a {
+	margin-left:40px;
+	color: #1c746b;
+	width: 500px;
+	text-align: right;
+}
+
+.entry-date {
+	color: #1c746b;
+}
+
+div.hr,
+div.hrs {
+	margin-left:40px;
+	margin-top: 2px;
+	width: 80%;
+  	height: 1px;
+  	background: #1c746b;
+}
+
+div.hr hr,
+div.hrs hr {
+	display: none;
+}
+
+div.hrs {
+	margin-left:10px;
+}
+
+.tips {
+	margin-left: 700px;
+	max-width: 183px;
+	padding-left:10px;
+	position: relative;
+	background: /*url('images/infoboxbg.png')*/ #035c47;
+	border: 1px solid #1c746b;
+}
+
+.aside-tips {
+}
+
+.site-footer {
+	background: url('images/footer.png');
+}
+
+.site-info {
+	text-align: center;
+	font-size: 14px;
+	max-width: 696px;
+}
+
+.footer-logo {
+	background: url('images/footerlogo.png');
+	width: 60px;
+	height: 60px;
+}

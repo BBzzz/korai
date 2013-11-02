@@ -1,0 +1,272 @@
+/*  
+Theme Name: pv
+Description: Pv theme
+Version: 0.0.1.
+Author: BB
+Text Domain: pv
+*/
+body {
+	background: url('images/bg.png') #001712;
+	color: #fff; 
+	font-family: Arial, Helvetica, sans-serif;
+//	height: 100%;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.site {
+	border: 1px solid red;
+	margin: auto 10px auto 100px; 
+//	max-width: 1170px;
+//	width: 100%;
+	position: relative;
+}
+
+.site-header {
+//	border: 1px solid blue;
+	background: url('images/headerprosperitas.png') #001712;	
+	height: 160px;
+}
+
+.site-main {
+	position: relative;
+//	height: 0;
+//	top: 20px;
+//	width: 100%;
+//	z-index: 1;
+//	margin: 0 auto;
+//	height: 100%;
+//	border: 1px solid blue;
+//	min-height: 100%;
+}
+
+.navbar {
+//	margin: 0 auto;
+//	border: 1px solid yellow;
+}
+
+.main-navigation {
+//	clear: both;
+//	margin: 0 auto;
+//	max-width: 1080px;
+//	position: relative;
+//	border: 1px solid #fff;
+	max-height: 63px;
+	background: url('images/menubg.png');
+}
+
+ul.nav-menu {
+	margin: 0;
+	padding: 0;
+//	margin-left: 3px;
+	height: 63px;
+//	border: 1px solid #000;	
+}
+
+.nav-menu li {//
+//	padding: 0 10px 0 10px;
+	display: inline-block;
+//	position: relative;
+//	border: 1px solid #fff;
+	width: 139px;
+	text-align: center;
+//	padding-top: 15px;
+	margin-right: -4px;
+}
+
+.nav-menu li a {
+	color: #fff;
+	display: block;
+	height: 54px;
+    	width: 143px;
+	background: url('images/menuact.png')  center top no-repeat;
+	font-size: 15px;height: 100%;
+//	padding: 15px 20px;
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover {
+	color: #fff;
+	background: url('images/menuactive.png')  center top no-repeat;
+}
+
+.search-form {
+	position: absolute;
+	right: 1px;
+	top: 15px;
+//	border: 1px solid green;
+}
+
+.search-form .search-submit {
+	display: none;
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+
+.navbar2 {
+//	background-color: #f7f5e7;
+//	margin: 0 auto;
+	max-width: 161px;
+//	width: 100%;
+	position: absolute;
+//	border: 1px solid #fff;
+}
+
+.side-navigation {
+//	clear: both;
+//	margin: 10px auto;
+	width: 161px;
+//	position: relative;
+//	background: url('images/submenubgactive.png') #001712;
+	border: 1px solid #fff;
+}
+
+ul.nav-menu2 {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-menu2 li {max-height: 63px;
+	margin-left: 10px;
+	margin-bottom: 8px;
+//	padding-left: 10px;
+//	padding-top: 8px;
+	border: 1px solid #fff;
+	display: block;
+	width: 149px;
+	height: 24px;
+//	position: absolute;
+//	background: url('images/submenubgactive.png') #001712;
+}
+
+.nav-menu2 li a {
+	color: #fff;
+	display: block;
+	font-size: 12px;
+	height: 24px;
+//	padding: 15px 20px;
+}
+
+.nav-menu2 li:hover > a,
+.nav-menu2 li a:hover {
+	background-color: #034053;
+	color: #fff;
+}
+
+.site-content {
+	background: url('images/contentbg.png') #001712;
+	position: absolute;
+	margin:0 0 0 170px;
+	padding-left:10px;
+	padding-right:10px;
+	max-width: 500px;
+	width: 100%;
+	border: 1px solid #fff;
+}
+
+.site-content .comments-link a {
+	margin-left:40px;
+//	padding-right: 2px;
+	border: 1px solid #fff;
+	color: #1c746b;
+	width: 500px;
+	text-align: right;
+}
+
+.entry-date {
+	color: #1c746b;
+}
+
+div.hr,
+div.hrs {
+	margin-left:40px;
+	margin-top: 2px;
+	width: 80%;
+  	height: 1px;
+  	background: #1c746b;
+}
+
+div.hr hr,
+div.hrs hr {
+  display: none;
+}
+
+div.hrs {
+	margin-left:10px;
+}
+
+.tips {
+//	background-color: #f7f5e7;
+//	margin-top: 10px;
+	margin-left: 700px;
+	max-width: 183px;
+	padding-left:10px;
+	position: relative;
+//	float:right;
+	border: 1px solid #1c746b;
+//	height: 200px;
+	background: url('images/infoboxbg.png') #001712;
+}
+
+.aside-tips {
+//	max-width: 161px;
+//	position: relative;
+//	border: 1px solid #fff;
+}
+
+.site-footer {
+	background: url('images/footer.png');
+//	max-height: 81px;
+	border: 1px solid #fff;
+//	position: absolute;
+}
+
+.site-info {
+//	margin: 0;
+//	padding: 10px 0;
+	text-align: center;
+//	position: relative;
+	font-size: 14px;
+	max-width: 696px;
+border: 1px solid #fff;
+}
+
+.footer-logo {
+	background: url('images/footerlogo.png');
+//	padding-top: 10;
+//	margin: 0;
+//	margin:-10px -696px 0 0;
+	width: 60px;
+	height: 60px;
+//	position: relative;
+//	float:right;
+	border: 1px solid #fff;
+}
+/*xxx
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+/*
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+/*  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+/*  height: 142px; 
+}
+*/
