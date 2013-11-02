@@ -5,6 +5,11 @@ Version: 0.0.1.
 Author: BB
 Text Domain: pv
 */
+
+
+@import 'html5-reset.css';
+@import 'typography.css';
+
 body {
 	background: url('images/bg.png') #001712;
 	color: #fff; 
@@ -16,10 +21,6 @@ a {
 	text-decoration: none;
 }
 
-.site {
-	margin: -8px 10px auto 100px; 
-	position: absolute;
-}
 
 .site-header {
 	background: url('images/headerprosperitas.png') #001712;	
@@ -99,8 +100,7 @@ ul.nav-menu {
 }
 
 .navbar2 {
-	max-width: 161px;
-	position: absolute;
+	
 }
 
 .side-navigation {
@@ -202,3 +202,72 @@ div.hrs {
 	width: 60px;
 	height: 60px;
 }
+
+
+
+/* cs */
+
+
+html, #page, .navbar, .site-footer {
+  width: 100%;
+  float: left;
+}
+
+body {
+  max-width: 80em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#page .site-header {
+  background-image: url('images/headerprosperitas.png');
+  background-position: fixed;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  height: 15em;
+}
+
+#page .main-navigation {
+  background-image: url('images/menubg.png');
+  background-position: fixed;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+
+
+.navbar2, .tips {
+  width: 25%;
+  float: left;
+}
+
+.site-content {
+  width: 50%;
+  float: left;
+}
+
+.tips {
+  margin-left: none;
+  max-width: none;
+  padding-left: 0;
+  margin-left: 0;
+  border: none;
+}
+
+.site-content {
+  margin: 0;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+.block {
+  width: 100%;
+  float: left;
+}
+
+

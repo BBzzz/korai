@@ -1,7 +1,7 @@
 			<div id="tips" class="tips">
 				<aside id="aside-tips" class="aside-tips">
 				<?php 	$args = array(
-						'cat' => '3',
+						'cat' => '5',
 						'orderby' => 'title',
 						'order' => 'ASC'
 					);

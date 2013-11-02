@@ -1,0 +1,33 @@
+body {font-size: 100%; line-height: 1.25;}
+body  h1, body  h2, body  h3, body  h4, body  h5, body  h6 { font-size: 1.5em; padding: 1.25em 0; margin-top: 0; margin-bottom: 0; }
+body  h2 { font-weight: 300; }
+body  p + p { margin-top: 1.25em; }
+body  q, body  blockquote { display: block; margin: 2.5em; border-left: 1px dotted; padding-left: 1.25em; font-style: italic; font-size: larger; }
+body  address { font-variant: small-caps; }
+body  ul, body  menu, body  dir, body  ol { margin: 1.25em; list-style-type: square; }
+body  ol { list-style-type: decimal; }
+body  dl { margin: 1.25em 0; }
+body  dl dt { font-weight: bold; text-transform: uppercase; margin: 1.25em 0; }
+body  dl dd { margin: 0.3125em; margin-bottom: 0.625em; }
+body  dl dd + dt { margin-top: 2.5em; }
+body  table { margin: 1.25em 0 2.5em; }
+body  table thead tr td { font-weight: bold; }
+body  table tbody { border-top: 1px dotted; border-bottom: 1px dotted; }
+body  table td, body  table th, body  table tr { text-align: left; vertical-align: top; padding: 1.25em; }
+body  table td { border-bottom: 1px solid; }
+body  em, body  i { font-style: italic; }
+body  strong, body  b { font-weight: bold; }
+body  input, body  textarea, body  select { border: none; outline: 0; background: white; appearance: none; -webkit-appearance: none; -moz-appearance: none; }
+body  input[type='text'], body  input[type='email'], body  input[type='password'], body  textarea { border: 1px solid transparent; border-bottom: 1px solid; font-style: italic; color: gray; }
+body  input[type='text']:focus, body  input[type='email']:focus, body  input[type='password']:focus, body  textarea:focus { color: black; font-style: normal; border: 1px solid #ccc; border-bottom: 1px solid; }
+body  input[type='submit'] { background: black; color: lightgray; padding: 0.625em; }
+body  input[type='submit']:hover { cursor: pointer; color: white; }
+body  input[type='radio'], body  input[type='checkbox'] { display: none; }
+body  input[type='radio'] + label, body  input[type='checkbox'] + label { display: inline-block; }
+body  input[type='radio'] + label:after { content: '\2610'; margin-right: 0.625em; }
+body  input[type='radio']:checked + label:after { content: '\25a3'; }
+body  input[type='checkbox'] + label:before { content: '\2610'; margin-right: 0.3125em; font-size: 200%; line-height: .5; vertical-align: top; color: lightgray; }
+body  input[type='checkbox']:checked + label:before { content: '\2611'; color: black; }
+body  select { border-bottom: 1px solid gray; cursor: pointer; width: 100%; }
+body  label.select:after { content: '\003E'; float: right; display: inline-block; padding: 0 .45em; position: relative; left: 0; background: white; pointer-events: none; /* this is a must */ cursor: pointer; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1); }
+

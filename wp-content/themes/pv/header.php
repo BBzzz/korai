@@ -26,10 +26,12 @@
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
 		<?php }?>
-		<?php if ( has_nav_menu( 'side-menu' ) ) { ?>
-			<div id="navbar2" class="navbar2">
-				<nav id="site-navigation2" class="navigation side-navigation" role="navigation">
-					<?php wp_nav_menu( array( 'theme_location' => 'side-menu', 'menu_class' => 'nav-menu2' ) ); ?>
-				</nav><!-- #site-navigation2 -->
-			</div><!-- #navbar2 -->
-		<?php }?>
+		
+		<div class="block">
+		  <?php if ( has_nav_menu( 'side-menu' ) ) { ?>
+			  <div id="navbar2" class="navbar2">
+				  <nav id="site-navigation2" class="navigation side-navigation" role="navigation">
+					  <?php wp_nav_menu( array( 'theme_location' => 'side-menu', 'menu_class' => 'nav-menu2' ) ); ?>
+				  </nav><!-- #site-navigation2 -->
+			  </div><!-- #navbar2 -->
+		  <?php }?>
